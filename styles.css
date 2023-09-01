@@ -27,3 +27,7 @@ a{
     color: linen;
 }
 
+main{
+    display: grid;
+    grid-template-columns: minmax(2rem,min-content) minmax(min-content,94rem) minmax(2rem, min-content);
+}
